@@ -1,0 +1,100 @@
+/* kore-theme.css — made with the Kore UI Picker
+   Theme: Soft
+   Accent: Teal · Font: Figtree · Corners: Round (10px) · Density: comfortable
+   Load the font from Google Fonts: https://fonts.google.com/specimen/Figtree
+   Variable names follow shadcn/ui, so its components use them as-is. */
+
+:root {
+  --radius: 10px;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, Menlo, monospace;
+  --control-height: 36px;
+  --card-padding: 18px;
+  --table-cell-y: 10px;
+  --text-base: 14px;
+  --icon-stroke: 1.75;
+  --background: #f6f8f7;
+  --foreground: #16201b;
+  --card: #ffffff;
+  --card-foreground: #16201b;
+  --popover: #ffffff;
+  --popover-foreground: #16201b;
+  --primary: #0d7a61;
+  --primary-foreground: #ffffff;
+  --secondary: #edf1ef;
+  --secondary-foreground: #16201b;
+  --muted: #edf1ef;
+  --muted-foreground: #59695f;
+  --accent: #edf1ef;
+  --accent-foreground: #16201b;
+  --destructive: #c62828;
+  --success: #15803d;
+  --warning: #b45309;
+  --info: #1d4ed8;
+  --border: #dfe5e2;
+  --input: #dfe5e2;
+  --ring: #0d7a61;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #16201b;
+  --sidebar-primary: #0d7a61;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-border: #dfe5e2;
+}
+
+.dark {
+  --background: #0d1210;
+  --foreground: #e7eeea;
+  --card: #141b18;
+  --card-foreground: #e7eeea;
+  --popover: #141b18;
+  --popover-foreground: #e7eeea;
+  --primary: #38c49e;
+  --primary-foreground: #03140f;
+  --secondary: #1c2521;
+  --secondary-foreground: #e7eeea;
+  --muted: #1c2521;
+  --muted-foreground: #94a69d;
+  --accent: #1c2521;
+  --accent-foreground: #e7eeea;
+  --destructive: #f87171;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --info: #60a5fa;
+  --border: #29342f;
+  --input: #29342f;
+  --ring: #38c49e;
+  --sidebar: #141b18;
+  --sidebar-foreground: #e7eeea;
+  --sidebar-primary: #38c49e;
+  --sidebar-primary-foreground: #03140f;
+  --sidebar-border: #29342f;
+}
+
+/* Element picks — Claude Code reads these to choose component styles.
+   See the library's picker/variants.md for what each one means.
+{
+  "button": "soft",
+  "input": "filled",
+  "menu": "inset",
+  "sidebar": "tinted",
+  "topbar": "blend",
+  "pageheader": "desc",
+  "card": "shadow",
+  "tabs": "segmented",
+  "kpi": "spark",
+  "table": "zebra",
+  "badge": "soft",
+  "chart": "area",
+  "avatar": "soft",
+  "pagination": "boxed",
+  "toast": "light",
+  "alert": "soft",
+  "loading": "pulse",
+  "empty": "framed",
+  "modal": "footer",
+  "drawer": "floating",
+  "tooltip": "dark",
+  "crumbs": "chevron",
+  "progress": "thin"
+}
+*/

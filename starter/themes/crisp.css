@@ -1,0 +1,100 @@
+/* kore-theme.css — made with the Kore UI Picker
+   Theme: Crisp
+   Accent: Blue · Font: Geist · Corners: Medium (6px) · Density: comfortable
+   Load the font from Google Fonts: https://fonts.google.com/specimen/Geist
+   Variable names follow shadcn/ui, so its components use them as-is. */
+
+:root {
+  --radius: 6px;
+  --font-sans: 'Geist', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, Menlo, monospace;
+  --control-height: 36px;
+  --card-padding: 18px;
+  --table-cell-y: 10px;
+  --text-base: 14px;
+  --icon-stroke: 1.75;
+  --background: #fbfbfc;
+  --foreground: #16181d;
+  --card: #ffffff;
+  --card-foreground: #16181d;
+  --popover: #ffffff;
+  --popover-foreground: #16181d;
+  --primary: #2f5bea;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f3f5;
+  --secondary-foreground: #16181d;
+  --muted: #f1f3f5;
+  --muted-foreground: #5d6470;
+  --accent: #f1f3f5;
+  --accent-foreground: #16181d;
+  --destructive: #c62828;
+  --success: #15803d;
+  --warning: #b45309;
+  --info: #1d4ed8;
+  --border: #e2e5e9;
+  --input: #e2e5e9;
+  --ring: #2f5bea;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #16181d;
+  --sidebar-primary: #2f5bea;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-border: #e2e5e9;
+}
+
+.dark {
+  --background: #0d0e11;
+  --foreground: #eceef2;
+  --card: #15171b;
+  --card-foreground: #eceef2;
+  --popover: #15171b;
+  --popover-foreground: #eceef2;
+  --primary: #6f8fff;
+  --primary-foreground: #0a1024;
+  --secondary: #1e2126;
+  --secondary-foreground: #eceef2;
+  --muted: #1e2126;
+  --muted-foreground: #9ba2ae;
+  --accent: #1e2126;
+  --accent-foreground: #eceef2;
+  --destructive: #f87171;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --info: #60a5fa;
+  --border: #2b2f36;
+  --input: #2b2f36;
+  --ring: #6f8fff;
+  --sidebar: #15171b;
+  --sidebar-foreground: #eceef2;
+  --sidebar-primary: #6f8fff;
+  --sidebar-primary-foreground: #0a1024;
+  --sidebar-border: #2b2f36;
+}
+
+/* Element picks — Claude Code reads these to choose component styles.
+   See the library's picker/variants.md for what each one means.
+{
+  "button": "solid",
+  "input": "outlined",
+  "menu": "inset",
+  "sidebar": "light",
+  "topbar": "plain",
+  "pageheader": "simple",
+  "card": "outline",
+  "tabs": "underline",
+  "kpi": "simple",
+  "table": "lines",
+  "badge": "soft",
+  "chart": "line",
+  "avatar": "soft",
+  "pagination": "plain",
+  "toast": "dark",
+  "alert": "soft",
+  "loading": "shimmer",
+  "empty": "centered",
+  "modal": "standard",
+  "drawer": "overlay",
+  "tooltip": "dark",
+  "crumbs": "chevron",
+  "progress": "thin"
+}
+*/

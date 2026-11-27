@@ -1,0 +1,100 @@
+/* kore-theme.css — made with the Kore UI Picker
+   Theme: Dense
+   Accent: Blue · Font: IBM Plex Sans · Corners: Sharp (2px) · Density: compact
+   Load the font from Google Fonts: https://fonts.google.com/specimen/IBM+Plex+Sans
+   Variable names follow shadcn/ui, so its components use them as-is. */
+
+:root {
+  --radius: 2px;
+  --font-sans: 'IBM Plex Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, Menlo, monospace;
+  --control-height: 30px;
+  --card-padding: 14px;
+  --table-cell-y: 6px;
+  --text-base: 13px;
+  --icon-stroke: 1.5;
+  --background: #f4f4f4;
+  --foreground: #161616;
+  --card: #ffffff;
+  --card-foreground: #161616;
+  --popover: #ffffff;
+  --popover-foreground: #161616;
+  --primary: #2f5bea;
+  --primary-foreground: #ffffff;
+  --secondary: #e8e8e8;
+  --secondary-foreground: #161616;
+  --muted: #e8e8e8;
+  --muted-foreground: #525252;
+  --accent: #e8e8e8;
+  --accent-foreground: #161616;
+  --destructive: #c62828;
+  --success: #15803d;
+  --warning: #b45309;
+  --info: #1d4ed8;
+  --border: #c9c9c9;
+  --input: #c9c9c9;
+  --ring: #2f5bea;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #161616;
+  --sidebar-primary: #2f5bea;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-border: #c9c9c9;
+}
+
+.dark {
+  --background: #161616;
+  --foreground: #f4f4f4;
+  --card: #232323;
+  --card-foreground: #f4f4f4;
+  --popover: #232323;
+  --popover-foreground: #f4f4f4;
+  --primary: #6f8fff;
+  --primary-foreground: #0a1024;
+  --secondary: #2f2f2f;
+  --secondary-foreground: #f4f4f4;
+  --muted: #2f2f2f;
+  --muted-foreground: #c2c2c2;
+  --accent: #2f2f2f;
+  --accent-foreground: #f4f4f4;
+  --destructive: #f87171;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --info: #60a5fa;
+  --border: #474747;
+  --input: #474747;
+  --ring: #6f8fff;
+  --sidebar: #232323;
+  --sidebar-foreground: #f4f4f4;
+  --sidebar-primary: #6f8fff;
+  --sidebar-primary-foreground: #0a1024;
+  --sidebar-border: #474747;
+}
+
+/* Element picks — Claude Code reads these to choose component styles.
+   See the library's picker/variants.md for what each one means.
+{
+  "button": "square",
+  "input": "filled",
+  "menu": "flush",
+  "sidebar": "dark",
+  "topbar": "dark",
+  "pageheader": "crumbs",
+  "card": "header",
+  "tabs": "enclosed",
+  "kpi": "strip",
+  "table": "compact",
+  "badge": "tag",
+  "chart": "bars",
+  "avatar": "square",
+  "pagination": "info",
+  "toast": "edge",
+  "alert": "edge",
+  "loading": "bar",
+  "empty": "inline",
+  "modal": "titled",
+  "drawer": "push",
+  "tooltip": "dark",
+  "crumbs": "chevron",
+  "progress": "thin"
+}
+*/
