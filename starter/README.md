@@ -5,6 +5,7 @@
 1. Set up Next.js (or Vite) + Tailwind + shadcn/ui (`npx shadcn@latest init`).
 2. Copy your theme file in:
    - Your own picks: open the [picker](https://claude.ai/artifact/WH9fmFbz11Ar16BT69qFiG), click **Get theme file**, save as `app/kore-theme.css`.
+   - Joseph's saved picks (Nov 2026): [`joseph-theme.css`](joseph-theme.css).
    - Or a stock theme: copy one of [`themes/`](themes/) (crisp, soft, dense, ink, friendly).
 3. Import it after Tailwind in your main CSS file, and replace shadcn's default color variables (the theme file uses the same names).
 4. Load the theme's font from Google Fonts.
