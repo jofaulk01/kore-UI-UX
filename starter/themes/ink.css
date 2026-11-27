@@ -1,0 +1,100 @@
+/* kore-theme.css — made with the Kore UI Picker
+   Theme: Ink
+   Accent: Graphite · Font: Manrope · Corners: Slight (4px) · Density: comfortable
+   Load the font from Google Fonts: https://fonts.google.com/specimen/Manrope
+   Variable names follow shadcn/ui, so its components use them as-is. */
+
+:root {
+  --radius: 4px;
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, Menlo, monospace;
+  --control-height: 36px;
+  --card-padding: 18px;
+  --table-cell-y: 10px;
+  --text-base: 14px;
+  --icon-stroke: 1.5;
+  --background: #ffffff;
+  --foreground: #0b0b0b;
+  --card: #ffffff;
+  --card-foreground: #0b0b0b;
+  --popover: #ffffff;
+  --popover-foreground: #0b0b0b;
+  --primary: #18181b;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f4f3;
+  --secondary-foreground: #0b0b0b;
+  --muted: #f4f4f3;
+  --muted-foreground: #6a6a68;
+  --accent: #f4f4f3;
+  --accent-foreground: #0b0b0b;
+  --destructive: #c62828;
+  --success: #15803d;
+  --warning: #b45309;
+  --info: #1d4ed8;
+  --border: #e6e6e3;
+  --input: #e6e6e3;
+  --ring: #18181b;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0b0b0b;
+  --sidebar-primary: #18181b;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-border: #e6e6e3;
+}
+
+.dark {
+  --background: #0a0a0a;
+  --foreground: #f4f4f4;
+  --card: #131313;
+  --card-foreground: #f4f4f4;
+  --popover: #131313;
+  --popover-foreground: #f4f4f4;
+  --primary: #f2f2f3;
+  --primary-foreground: #18181b;
+  --secondary: #1d1d1d;
+  --secondary-foreground: #f4f4f4;
+  --muted: #1d1d1d;
+  --muted-foreground: #a0a0a0;
+  --accent: #1d1d1d;
+  --accent-foreground: #f4f4f4;
+  --destructive: #f87171;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --info: #60a5fa;
+  --border: #2c2c2c;
+  --input: #2c2c2c;
+  --ring: #f2f2f3;
+  --sidebar: #131313;
+  --sidebar-foreground: #f4f4f4;
+  --sidebar-primary: #f2f2f3;
+  --sidebar-primary-foreground: #18181b;
+  --sidebar-border: #2c2c2c;
+}
+
+/* Element picks — Claude Code reads these to choose component styles.
+   See the library's picker/variants.md for what each one means.
+{
+  "button": "solid",
+  "input": "ring",
+  "menu": "dark",
+  "sidebar": "light",
+  "topbar": "nav",
+  "pageheader": "back",
+  "card": "open",
+  "tabs": "text",
+  "kpi": "goal",
+  "table": "lines",
+  "badge": "outline",
+  "chart": "line",
+  "avatar": "neutral",
+  "pagination": "text",
+  "toast": "pill",
+  "alert": "outline",
+  "loading": "pulse",
+  "empty": "centered",
+  "modal": "standard",
+  "drawer": "overlay",
+  "tooltip": "dark",
+  "crumbs": "chevron",
+  "progress": "thin"
+}
+*/

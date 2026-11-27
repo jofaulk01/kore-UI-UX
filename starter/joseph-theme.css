@@ -1,0 +1,100 @@
+/* kore-theme.css — made with the Kore UI Picker
+   Theme: Friendly (with your changes)
+   Accent: Violet · Font: Nunito Sans · Corners: Extra round (14px) · Density: comfortable
+   Load the font from Google Fonts: https://fonts.google.com/specimen/Nunito+Sans
+   Variable names follow shadcn/ui, so its components use them as-is. */
+
+:root {
+  --radius: 14px;
+  --font-sans: 'Nunito Sans', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, Menlo, monospace;
+  --control-height: 36px;
+  --card-padding: 18px;
+  --table-cell-y: 10px;
+  --text-base: 14px;
+  --icon-stroke: 2;
+  --background: #faf9fc;
+  --foreground: #1d1727;
+  --card: #ffffff;
+  --card-foreground: #1d1727;
+  --popover: #ffffff;
+  --popover-foreground: #1d1727;
+  --primary: #6a3fd6;
+  --primary-foreground: #ffffff;
+  --secondary: #f1eef7;
+  --secondary-foreground: #1d1727;
+  --muted: #f1eef7;
+  --muted-foreground: #655d76;
+  --accent: #f1eef7;
+  --accent-foreground: #1d1727;
+  --destructive: #c62828;
+  --success: #15803d;
+  --warning: #b45309;
+  --info: #1d4ed8;
+  --border: #e3deee;
+  --input: #e3deee;
+  --ring: #6a3fd6;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1d1727;
+  --sidebar-primary: #6a3fd6;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-border: #e3deee;
+}
+
+.dark {
+  --background: #110e17;
+  --foreground: #eeeaf5;
+  --card: #1a1621;
+  --card-foreground: #eeeaf5;
+  --popover: #1a1621;
+  --popover-foreground: #eeeaf5;
+  --primary: #a78bff;
+  --primary-foreground: #140c26;
+  --secondary: #241e2d;
+  --secondary-foreground: #eeeaf5;
+  --muted: #241e2d;
+  --muted-foreground: #a59cb6;
+  --accent: #241e2d;
+  --accent-foreground: #eeeaf5;
+  --destructive: #f87171;
+  --success: #4ade80;
+  --warning: #fbbf24;
+  --info: #60a5fa;
+  --border: #342c40;
+  --input: #342c40;
+  --ring: #a78bff;
+  --sidebar: #1a1621;
+  --sidebar-foreground: #eeeaf5;
+  --sidebar-primary: #a78bff;
+  --sidebar-primary-foreground: #140c26;
+  --sidebar-border: #342c40;
+}
+
+/* Element picks — Claude Code reads these to choose component styles.
+   See the library's picker/variants.md for what each one means.
+{
+  "button": "raised",
+  "input": "ring",
+  "menu": "accent",
+  "sidebar": "floating",
+  "topbar": "center",
+  "pageheader": "tabs",
+  "card": "shadow",
+  "tabs": "soft",
+  "kpi": "bars",
+  "table": "rows",
+  "badge": "tag",
+  "chart": "rounded",
+  "avatar": "status",
+  "pagination": "boxed",
+  "toast": "filled",
+  "alert": "soft",
+  "loading": "pulse",
+  "empty": "checklist",
+  "modal": "icon",
+  "drawer": "bottom",
+  "tooltip": "light",
+  "crumbs": "chevron",
+  "progress": "thick"
+}
+*/
